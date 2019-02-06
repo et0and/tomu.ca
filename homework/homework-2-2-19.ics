@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//www.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Pacific/Auckland
+TZURL:http://tzurl.org/zoneinfo-outlook/Pacific/Auckland
+X-LIC-LOCATION:Pacific/Auckland
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+1200
+TZOFFSETTO:+1300
+TZNAME:NZDT
+DTSTART:19700927T020000
+RRULE:FREQ=YEARLY;BYMONTH=9;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+1300
+TZOFFSETTO:+1200
+TZNAME:NZST
+DTSTART:19700405T030000
+RRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20190206T012942Z
+UID:20190206T012942Z-1337199805@marudot.com
+DTSTART;VALUE=DATE:20190214
+DTEND;VALUE=DATE:20190214
+SUMMARY:Year 9 Art - research on spinning tops
+DESCRIPTION:Due 14th February at 12:00 pm. Submit either a hard-copy or email to tom@tomu.ca\n\nUsing your summary resource sheet and the capture card you completed from today's lesson\, research online some more into customary Maori spinning tops. Find answers to the following questions:\n- what materials were they made from?\n- how were they played with?\n- can you describe the different types of tops that there were?\n\nWhile you are looking at these questions\, find 3 images of Maori spinning tops that you like and bring them into class (either physically as a print out or submit the files to the school Trello board) to share for Monday's class!\n\nIf you get stuck or have any questions feel free to ask me!
+END:VEVENT
+END:VCALENDAR
